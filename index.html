@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Battleship</title>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <title>Games</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <script sri="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!--Temp-->
     <style>
         .square {
             height: 40px;
@@ -30,13 +33,13 @@
             sunkShips: 0,
             shipsLeft: 5,
             ship: {
-                icon: "<img src='icons/battleship.png' height='50px'/>"
+                icon: "<img src='games/battleship/icons/battleship.png' height='50px'/>"
             }, hit: {
-                icon: "<img src='icons/hit.png' height='50px'/>"
+                icon: "<img src='games/battleship/icons/hit.png' height='50px'/>"
             }, miss: {
-                icon: "<img src='icons/miss.png' height='50px'/>"
+                icon: "<img src='games/battleship/icons/miss.png' height='50px'/>"
             }, water: {
-                icon: "<img src='icons/water.png' height='50px'/>"
+                icon: "<img src='games/battleship/icons/water.png' height='50px'/>"
             },
             myBoard:
                 [
@@ -174,6 +177,7 @@
         }
 
         function showBoard() {
+            document.getElementById("showBoatsButton").innerHTML = "";
             document.getElementById("title").innerText = "Game Set Up"
             let oStr = `<form className="form-inline py-3">`;
             oStr += '<b><span style="font-size: 20px;">Name:</span></b>';
@@ -334,9 +338,19 @@
             }
         }
     </script>
+
+<!--    End of temp -->
 </head>
-<body onload="showBoard()">
-<div class="container-fluid">
+<body style="margin-top: 100px" onload="showBoard()">
+<div class="text-center">
+    <h2 style="font-size: 70px; color: darkred">This page is currently under construction!</h2>
+    <h4>Eventually this page will be the hub to the browser games that I have made.</h4>
+    <h4>In the meantime, enjoy some battleship.</h4>
+</div>
+
+
+
+<div class="container-fluid" style="margin-top: 50px">
     <div class="row">
         <h1 class="text-center">Battleship</h1>
     </div>
@@ -347,11 +361,14 @@
             <span id="warBoard"></span>
         </div>
         <div class=" col-sm-9 text-center" style="background-color:cornflowerblue; border:1px solid black;">
-            <span id="Game"> Game Area </span>
+            <span id="Game" style="font-size: 25px">Game Board</span>
             <table class="table" id="gameArea">
             </table>
         </div>
     </div>
 </div>
+
+
+<!--Keep, do not remove-->
 </body>
 </html>

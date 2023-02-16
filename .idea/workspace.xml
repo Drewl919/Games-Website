@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="feda89bf-1148-47c1-afc1-c2dc883f9093" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleship/icons/battleship.png" beforeDir="false" afterPath="$PROJECT_DIR$/games/battleship/icons/battleship.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleship/icons/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/games/battleship/icons/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleship/icons/hit.png" beforeDir="false" afterPath="$PROJECT_DIR$/games/battleship/icons/hit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleship/icons/miss.png" beforeDir="false" afterPath="$PROJECT_DIR$/games/battleship/icons/miss.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleship/icons/water.png" beforeDir="false" afterPath="$PROJECT_DIR$/games/battleship/icons/water.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleship/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/battleship/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="feda89bf-1148-47c1-afc1-c2dc883f9093" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +35,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -64,6 +57,7 @@
       <updated>1675918510883</updated>
       <workItem from="1675918514705" duration="599000" />
       <workItem from="1676439995945" duration="2465000" />
+      <workItem from="1676573082545" duration="241000" />
     </task>
     <servers />
   </component>
